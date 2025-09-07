@@ -8,7 +8,7 @@ import SafetyTips from "./components/SafetyTips";
 export default function App() {
   const { theme, setTheme } = useTheme();
   const {
-    status, messages, startChat, send, nextChat, endChat, peerId, roomId, error
+    status, messages, startChat, send, nextChat, endChat, peerId, error
   } = useRealtimeChat();
 
   return (
